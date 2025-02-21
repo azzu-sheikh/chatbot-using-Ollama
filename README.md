@@ -1,28 +1,28 @@
-# chatbot-using-Ollama
+## chatbot-using-Ollama
 # AI Chatbot with History
 
 This project is an AI chatbot built using Streamlit and Langchain. The chatbot is designed to assist 5th grade students by providing brief and helpful explanations. The chatbot maintains a history of the conversation, allowing users to see previous interactions.
 
-## Features
+# Features
 
 - AI chatbot that provides brief and helpful explanations.
 - Maintains a history of the conversation.
 - Built using Streamlit for the web interface.
 - Utilizes Langchain for the chatbot model and prompts.
 
-## Installation
+# Installation
 
-1. # Clone the repository:
-git clone https://github.com/yourusername/your-repo-name.git
+1. **Clone the repository:**
+git clone https://github.com/azzu-sheikh/chatbot-using-Ollama
 
-2. # Install the required dependencies:
+2. **Install the required dependencies:**
    ollama run llama3.2:1b
 
  pip install -qU langchain-ollama
  pip install langchain
  pip install streamlit
 
-3. # Ensure you have the necessary model running locally.
+3. **Ensure you have the necessary model running locally.**
    The chatbot uses the llama3.2:1b model from Langchain, which should be accessible at http://localhost:11434/.
 
 **Usage**
