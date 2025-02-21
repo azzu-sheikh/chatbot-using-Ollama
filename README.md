@@ -19,7 +19,9 @@ git clone https://github.com/azzu-sheikh/chatbot-using-Ollama
    ollama run llama3.2:1b
 
  pip install -qU langchain-ollama
+ 
  pip install langchain
+ 
  pip install streamlit
 
 3. **Ensure you have the necessary model running locally.**
@@ -34,16 +36,26 @@ git clone https://github.com/azzu-sheikh/chatbot-using-Ollama
 ## Code Overview
 
 Imports: The script imports necessary modules from Streamlit and Langchain.
+
 Title and Header: Sets the title and header of the Streamlit app.
+
 Model Initialization: Initializes the ChatOllama model with the specified base URL.
+
 System Message: Defines the system message prompt template.
+
 Chat History: Initializes the chat history in the session state if it doesn't exist.
+
 Form: Creates a form for user input.
+
 Generate Response: Defines a function to generate responses from the model.
+
 Get History: Defines a function to retrieve the chat history.
+
 Submit Handling: Handles the form submission, generates a response, and updates the chat history.
+
 Display Chat History: Displays the chat history in the Streamlit app.
 
 ## Example
 Enter your question in the text area and click "Submit".
+
 The chatbot will generate a response and display it along with the chat history.
