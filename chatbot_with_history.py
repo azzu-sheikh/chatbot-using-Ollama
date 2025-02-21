@@ -12,7 +12,7 @@ st.header("Welcome to the AI Chatbot")
 
 model = ChatOllama(model="llama3.2:1b", base_url="http://localhost:11434/")
 
-system_message = SystemMessagePromptTemplate.from_template("You are a helpful AI Assistant. You work as teacher for 5th grade students. You explain things in short and brief.")
+system_message = SystemMessagePromptTemplate.from_template("You are a helpful AI Assistant. You work as teacher for engineering students. You explain things in short and brief.")
 
 if "chat_history" not in st.session_state:
     st.session_state['chat_history'] = []
