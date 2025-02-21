@@ -1,7 +1,7 @@
 # chatbot-using-Ollama
 # AI Chatbot with History
 
-***This project is an AI chatbot built using Streamlit and Langchain. The chatbot is designed to assist 5th grade students by providing brief and helpful explanations. The chatbot maintains a history of the conversation, allowing users to see previous interactions.***
+***This project is an AI chatbot built using Streamlit and Langchain. The chatbot is designed to assist engineering students by providing brief and helpful explanations. The chatbot maintains a history of the conversation, allowing users to see previous interactions.***
 
 ## Features
 
